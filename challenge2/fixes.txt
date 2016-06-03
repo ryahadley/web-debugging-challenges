@@ -1,0 +1,9 @@
+First started node server.js to check errors
+
+1. Error numero uno... cannot find module 'express'.  there are no node_modules in this project, the dependencies are listed in the package.json file so I npm init -y the    project and npm install to download all the dependencies.
+
+
+2. getting an error with express for the Route.get() requires callback functions.  copy and pasting the error in google to find help.  there was no express-session so I
+  npm install --save that and had express use it.
+
+3. keys is not defined.  made a keys.js file and added a secret.
