@@ -1,0 +1,10 @@
+1.  The first error I encountered was my angular Module was not available so I checked the app.js file to see how the module was set up and made sure
+    all the dependencies were brought in and the syntax was correct for each state. I right away saw that each state was closed too soon with an extra )
+    after the state name and no comma was there before the state object properties. As well as the closing bracket and parentheses for the module declaration.
+    Put that at the bottom of the page enclosing the containing states and fixed the problem. Still getting errors.
+    I next went to check the index file to make sure all my script tags were typed out correctly and that the angular cdn was brought into the project.  I saw a single missing closing tag for the url on the angular-ui-router. 
+
+2.  Unexpected token ) logged in the console. showing productsCtrl.js:9.  went to my productsCtrl.js file and on line 9 there was no closing bracket } for the
+    controller function.
+
+3. Unexpected token { app.js:6
